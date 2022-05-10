@@ -1,0 +1,12 @@
+github.com/HimbeerserverDE/mt-multiserver-proxy v0.0.0-20220503060607-9a06c8f860eb h1:vmACXuf6ln+lCjaYCe6Z0Dvw+kW4tIiHm3nAsam4Ibk=
+github.com/HimbeerserverDE/mt-multiserver-proxy v0.0.0-20220503060607-9a06c8f860eb/go.mod h1:QcSbqCHaPTEubrFC8TGFVJm9QIH9W03+jzy/TsUfNfw=
+github.com/HimbeerserverDE/srp v0.0.0 h1:Iy2GIF7DJphXXO9NjncLEBO6VsZd8Yhrlxl/qTr09eE=
+github.com/HimbeerserverDE/srp v0.0.0/go.mod h1:pxNH8S2nh4n2DWE0ToX5GnnDr/uEAuaAhJsCpkDLIWw=
+github.com/anon55555/mt v0.0.0-20210919124550-bcc58cb3048f h1:tZU8VPYLyRrG3Lj9zBZvTVF5tUGciC/2aUIgTcU4WaM=
+github.com/anon55555/mt v0.0.0-20210919124550-bcc58cb3048f/go.mod h1:jH4ER+ahjl7H6TczzK+q4V9sXY++U2Geh6/vt3r4Xvs=
+github.com/ev2-1/telnetClient v0.0.0-20220505194704-a1a6af08a836 h1:3/RzWMKm3tk5CCpcJfnu3XHUgaHAOwC4RI5kkhJByrc=
+github.com/ev2-1/telnetClient v0.0.0-20220505194704-a1a6af08a836/go.mod h1:wd7Tco2xEU/Co1PlXEbXLNHcdSiMyS2LbvnNx9tnX50=
+github.com/reiver/go-oi v1.0.0 h1:nvECWD7LF+vOs8leNGV/ww+F2iZKf3EYjYZ527turzM=
+github.com/reiver/go-oi v1.0.0/go.mod h1:RrDBct90BAhoDTxB1fenZwfykqeGvhI6LsNfStJoEkI=
+github.com/reiver/go-telnet v0.0.0-20180421082511-9ff0b2ab096e h1:quuzZLi72kkJjl+f5AQ93FMcadG19WkS7MO6TXFOSas=
+github.com/reiver/go-telnet v0.0.0-20180421082511-9ff0b2ab096e/go.mod h1:+5vNVvEWwEIx86DB9Ke/+a5wBI464eDRo3eF0LcfpWg=
