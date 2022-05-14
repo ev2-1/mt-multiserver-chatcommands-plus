@@ -15,3 +15,4 @@ require (
 )
 
 replace github.com/HimbeerserverDE/mt-multiserver-proxy => ../../proxy
+

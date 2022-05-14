@@ -6,7 +6,6 @@ package main
 import (
 	"fmt"
 	"io"
-	"time"
 
 	proxy "github.com/HimbeerserverDE/mt-multiserver-proxy"
 )
@@ -22,8 +21,7 @@ func init() {
 				return "Usage: <name> <addr> <mediaPool>"
 			}
 
-			err := proxy.AddServer(proxy.Server{
-				Name:      args[0],
+			err := proxy.AddServer(args[0], proxy.Server{
 				Addr:      args[1],
 				MediaPool: args[2],
 			})
@@ -44,12 +42,12 @@ func init() {
 				return "Usage: <name>"
 			}
 
-			found, srv := proxy.GetServer(args[0])
+			srv, found := proxy.Conf().Servers[args[0]]
 			if !found {
 				return "server dosn't exist"
 			}
 
-			return fmt.Sprintf("--- %s ---\nAddr: %s\n MediaPool: %s\n Fallbacks: %s", srv.Name, srv.Addr, srv.MediaPool, srv.Fallbacks)
+			return fmt.Sprintf("--- %s ---\nAddr: %s\n MediaPool: %s\n Fallbacks: %s", args[0], srv.Addr, srv.MediaPool, srv.Fallbacks)
 		},
 	})
 }
